@@ -7,3 +7,5 @@ project/_config.py
 .coverage
 /htmlcov
 _config.py
+/.idea
+/.vscode

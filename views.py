@@ -74,8 +74,6 @@ def login():
                 return redirect(url_for("tasks"))
             else:
                 error = "Invalid username or password!"
-        else:
-            error = "Both fields are required!"
     return render_template("login.html", error=error, form=form)
 
 
